@@ -1,0 +1,16 @@
+name = "cslib-bst"
+version = "0.1.0"
+defaultTargets = ["CSLibBST"]
+
+[[lean_lib]]
+name = "CSLibBST"
+srcDir = "src"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+
+[[require]]
+name = "cslib"
+scope = "leanprover"
+rev = "main"
