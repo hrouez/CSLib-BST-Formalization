@@ -5,7 +5,7 @@ Binary Search Tree formalization in Lean 4
 
  Status
 - Pure lemmas: compiled
-- insert/search with TimeM: proved
+- insert/search : proved
 - Adaptation to Prog/LTQuery (cslib#401):  in progress
 
 Theorems
